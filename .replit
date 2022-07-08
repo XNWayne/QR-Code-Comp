@@ -1,6 +1,9 @@
-run = ["yarn", "dev"]
-entrypoint = "index.html"
-hidden = ["vite.config.js", ".config"]
+hidden=[".config"]
+
+# hosting is currently hardcoded for this language
+# [hosting]
+# route = "/"
+# directory= "/"
 
 [nix]
 channel = "stable-21_11"
